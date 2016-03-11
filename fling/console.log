@@ -1,0 +1,55 @@
+2016-03-11 07:51:21.836 [debug] <0.53.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/Users/mallen/github/fling/fling/20160311_075121/error.log"} into lager_event
+2016-03-11 07:51:21.836 [debug] <0.55.0>@lager_handler_watcher:94 Lager installed handler {lager_file_backend,
+                            "/Users/mallen/github/fling/fling/20160311_075121/console.log"} into lager_event
+2016-03-11 07:51:21.836 [debug] <0.57.0>@lager_handler_watcher:94 Lager installed handler error_logger_lager_h into error_logger
+2016-03-11 07:51:21.876 [debug] <0.40.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.59.0>
+2016-03-11 07:51:21.876 [debug] <0.39.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.60.0>
+2016-03-11 07:51:21.876 [debug] <0.41.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.61.0>
+2016-03-11 07:51:21.876 [debug] <0.41.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.62.0>
+2016-03-11 07:51:22.308 [debug] <0.49.0>@lager_handler_watcher:94 Lager installed handler lager_backend_throttle into lager_event
+2016-03-11 07:51:22.612 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-03-11 07:51:22.613 [notice] <0.46.0>@lager_file_backend:127 Changed loglevel of /Users/mallen/github/fling/fling/20160311_075121/console.log to debug
+2016-03-11 07:51:22.630 [info] <0.2.0>@basho_bench:log_dimensions:253 Est. data size: 9.54 MB
+2016-03-11 07:51:22.720 [debug] <0.71.0> Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.72.0>
+2016-03-11 07:51:22.720 [debug] <0.71.0> Supervisor sasl_safe_sup started overload:start_link() at pid <0.73.0>
+2016-03-11 07:51:22.720 [debug] <0.70.0> Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.71.0>
+2016-03-11 07:51:22.735 [debug] <0.70.0> Supervisor sasl_sup started release_handler:start_link() at pid <0.74.0>
+2016-03-11 07:51:22.735 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-03-11 07:51:22.814 [debug] <0.79.0> Supervisor crypto_sup started crypto_server:start_link() at pid <0.80.0>
+2016-03-11 07:51:22.814 [info] <0.7.0> Application crypto started on node nonode@nohost
+2016-03-11 07:51:22.847 [debug] <0.89.0> Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.90.0>
+2016-03-11 07:51:22.859 [debug] <0.89.0> Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.91.0>
+2016-03-11 07:51:22.864 [debug] <0.89.0> Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.92.0>
+2016-03-11 07:51:22.864 [info] <0.7.0> Application folsom started on node nonode@nohost
+2016-03-11 07:51:22.908 [info] <0.85.0>@basho_bench_stats_writer_csv:new:43 module=basho_bench_stats_writer_csv event=start stats_sink=csv
+2016-03-11 07:51:22.915 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.85.0>
+2016-03-11 07:51:22.925 [info] <0.95.0>@basho_bench_valgen:init_source:88 Random source: calling crypto:rand_bytes(100663296) (override with the 'value_generator_source_size' config option
+2016-03-11 07:51:27.339 [info] <0.95.0>@basho_bench_valgen:init_source:95 Random source: finished crypto:rand_bytes(100663296)
+2016-03-11 07:51:27.429 [info] <0.97.0>@basho_bench_valgen:init_source:88 Random source: calling crypto:rand_bytes(100663296) (override with the 'value_generator_source_size' config option
+2016-03-11 07:51:27.429 [info] <0.7.0> Application fling started on node nonode@nohost
+2016-03-11 07:51:31.785 [info] <0.97.0>@basho_bench_valgen:init_source:95 Random source: finished crypto:rand_bytes(100663296)
+2016-03-11 07:51:38.075 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_1, 1) at pid <0.95.0>
+2016-03-11 07:51:38.076 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_2, 2) at pid <0.105.0>
+2016-03-11 07:51:38.076 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_3, 3) at pid <0.107.0>
+2016-03-11 07:51:38.077 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_4, 4) at pid <0.109.0>
+2016-03-11 07:51:38.078 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_5, 5) at pid <0.111.0>
+2016-03-11 07:51:38.078 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_6, 6) at pid <0.113.0>
+2016-03-11 07:51:38.079 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_7, 7) at pid <0.115.0>
+2016-03-11 07:51:38.079 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_8, 8) at pid <0.117.0>
+2016-03-11 07:51:38.080 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_9, 9) at pid <0.119.0>
+2016-03-11 07:51:38.080 [debug] <0.84.0> Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_10, 10) at pid <0.121.0>
+2016-03-11 07:51:38.081 [debug] <0.25.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.123.0>
+2016-03-11 07:51:38.088 [info] <0.122.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.122.0> on nonode@nohost
+2016-03-11 07:51:38.088 [info] <0.120.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.120.0> on nonode@nohost
+2016-03-11 07:51:38.088 [info] <0.118.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.118.0> on nonode@nohost
+2016-03-11 07:51:38.089 [info] <0.116.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.116.0> on nonode@nohost
+2016-03-11 07:51:38.090 [info] <0.114.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.114.0> on nonode@nohost
+2016-03-11 07:51:38.090 [info] <0.112.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.112.0> on nonode@nohost
+2016-03-11 07:51:38.090 [info] <0.110.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.110.0> on nonode@nohost
+2016-03-11 07:51:38.091 [info] <0.108.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.108.0> on nonode@nohost
+2016-03-11 07:51:38.091 [info] <0.106.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.106.0> on nonode@nohost
+2016-03-11 07:51:38.092 [info] <0.97.0>@basho_bench_worker:worker_idle_loop:237 Starting max worker: <0.97.0> on nonode@nohost
+2016-03-11 07:51:38.097 [info] <0.7.0> Application basho_bench started on node nonode@nohost
+2016-03-11 07:54:40.550 [info] <0.85.0>@basho_bench_stats:report_total_errors:291 No Errors.
+2016-03-11 07:54:40.550 [info] <0.85.0>@basho_bench_stats_writer_csv:terminate:62 module=basho_bench_stats_writer_csv event=stop stats_sink=csv
